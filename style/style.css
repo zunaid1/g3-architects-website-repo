@@ -103,6 +103,41 @@ main>section {
 
 /* -------END--------------------------------- */
 
+/* features section Style  START*/
+
+.features {
+  gap: 140px;
+
+}
+
+
+
+#feature-section-title {
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+
+.feature-card {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+
+}
+
+
+
+.feature-card .feature-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+/* ------------features section Style  END--------------*/
 
 /* some fact Start */
 .facts-container {
