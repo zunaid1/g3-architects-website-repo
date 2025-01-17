@@ -29,7 +29,6 @@ main>section {
 .navbar {
   justify-content: space-between;
   align-items: center;
-
 }
 
 .brand {
@@ -105,6 +104,42 @@ main>section {
 /* -------END--------------------------------- */
 
 
+/* some fact Start */
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+.fact-card {
+  border: 1px solid #ff900E;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.fact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+
+}
+
+.face-desc {
+  max-width: 540px;
+}
+
+/* ----------------some fact END------------------------*/
 /* Responsive media query */
 @media screen and (max-width:576px) {
 
