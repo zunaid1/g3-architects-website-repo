@@ -136,16 +136,32 @@ main>section {
 }
 
 
+#exp-badge {
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+#exp-year {
+  font-size: 4rem;
+  font-weight: 700;
+}
 
 /* ------------features section Style  END--------------*/
 
 /* some fact Start */
+
 .facts-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 
 }
 
+.featured-architect img {
+  width: 100%;
+}
 .fact-card {
   border: 1px solid #ff900E;
   width: 240px;
@@ -200,6 +216,7 @@ main>section {
 
   .navbar,
   .nav-links,
+  .features,
   .teams {
     flex-direction: column;
   }
@@ -230,13 +247,18 @@ main>section {
   .our-feature-desc {
     text-align: center;
   }
+#exp-badge {
+  margin-top: 20px;
+  margin-left: 20px;
+}
 }
 
 
 
 /* -----------Medium size Device -------------------------------------------------- */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-  .teams {
+  .teams,
+    .features {
     flex-direction: column;
   }
 
@@ -249,7 +271,13 @@ main>section {
   gap: 50px;
   justify-items: center;
 }
+#exp-badge {
+  margin-top: 20px;
+  margin-left: 20px;
 }
+}
+
+
 
 /* -------Responsive media Query END------------------------ */
 
