@@ -1,0 +1,54 @@
+/* shared styles START */
+.btn-primary {
+	background-color: #FF900E;
+	color: white;
+	padding: 20px 25px;
+	border: none;
+	font-size: 1.25rem;
+	border-radius: 8px;
+}
+
+.display-flex {
+	display: flex;
+}
+
+/* dark 02 */
+.text-gray {
+	color: #424242;
+}
+
+.text-light-gray {
+	color: #727272;
+}
+
+.bg-light {
+	background-color: rgba(255, 144, 14, 0.1);
+}
+
+.text-primary {
+	color: #ff900E;
+}
+
+.section-title {
+	font-size: 2.8rem;
+	font-weight: 700;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+
+/* -------Shared Style END------------------------ */
